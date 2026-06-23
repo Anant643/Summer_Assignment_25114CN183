@@ -12,7 +12,7 @@ public class Q101 {
         boolean again = true;
 
         while (again) {
-
+            System.out.print("I'm thinking of a number from (1 - 100)");
             int correct = random.nextInt(100) + 1;
             int attempts = 0;
             int guess;
